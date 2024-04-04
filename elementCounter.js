@@ -25,7 +25,7 @@ const counterRegular = (arr) =>{
         }
         left++
         
-        // if elemnets in the array appears more than once, delete the element
+        // add elements tht doesn't appear more than once
         
         if(!mod.includes(arr[left])){
             mod.push(arr[left])
