@@ -50,7 +50,7 @@ const counterOptimised = (arr) => {
 
   // loop over the array
   while (left < arr.length) {
-    if (left === 0 && arr[left] !== 0) {
+    if (left === 0) {
       mod.add(arr[left]);
     }
     left++;
